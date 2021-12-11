@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* Navigation bar */
+.navbar {
+  background-color: #b54213;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+.navbar ul li {
+  display: block;
+  padding: 10px 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+}
+.navbar ul li a:hover {
+  background-color: white;
+  color: #b54213;
+}
+/* Box with background image */
+.box {
+  background: url(./img/a.jpg) no-repeat center/cover;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: #b54213;
+}
+/* Card with map */
+h2 {
+  text-align: center;
+  padding: 10px;
+  background-color: #c57b5d;
+  color: white;
+}
+.card {
+  display: flex;
+  color: white;
+  background-color: #dfbb85;
+  padding: 10px;
+}
+
+.form {
+  max-height: 350px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+}
+img {
+  max-height: 600px;
+  max-width: 600px;
+}
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: left;
+}
+input {
+  width: 230px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: white;
+}
+button {
+  width: 100px;
+  height: 20px;
+  float: right;
+}
+
+/* Footer */
+.footer {
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #b54213;
+  color: white;
+  font-size: 15px;
+}
+.footer img {
+  height: 40px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer p {
+  margin: 0;
+}
