@@ -205,6 +205,16 @@ a {
 a:hover {
   color: #25ced1;
 }
+/* CV */
+.cv a {
+  font-size: medium;
+  color: #fff;
+  padding-top: 10px;
+  text-decoration: none;
+}
+.cv a:hover {
+  color: #495867;
+}
 /* Footer */
 .footer {
   background-color: #fff;
