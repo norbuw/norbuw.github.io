@@ -32,12 +32,6 @@ span {
   justify-content: space-evenly;
   flex-direction: row;
 }
-a {
-  font-size: larger;
-  color: #fff;
-  padding-top: 10px;
-  text-decoration: none;
-}
 
 /* Navigation bar */
 .navbar {
@@ -55,6 +49,8 @@ a {
 .navbar ul li a {
   text-decoration: none;
   color: #495867;
+  padding-top: 10px;
+  font-size: 1.1rem;
 }
 .navbar ul li a:hover {
   color: #25ced1;
@@ -150,7 +146,7 @@ a {
   padding: 0px 10px 30px 10px;
 }
 #container-middle .posterHorizontal img {
-  height: 350px;
+  height: 400px;
   width: auto;
   padding: 0px 10px 30px 10px;
 }
@@ -164,9 +160,15 @@ a {
   text-align: center;
   padding-top: 15px;
 }
-#container-middle .play img {
-  max-height: 0px;
+#container-middle .poster .play img {
+  max-height: 4rem;
   width: auto;
+}
+#container-middle a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* About Page */

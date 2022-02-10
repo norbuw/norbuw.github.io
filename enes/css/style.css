@@ -64,12 +64,6 @@ a {
   text-decoration: none;
   font-size: 0.9rem;
 }
-/* h1 {
-  font-weight: 800;
-  font-size: 16rem;
-  line-height: 1.2;
-  color: #fff;
-} */
 h2 {
   font-size: 5rem;
   font-weight: 900;
@@ -202,4 +196,21 @@ img:hover {
 }
 .footer .name:hover {
   color: #fff;
+}
+
+/* Coming soon */
+.page404 {
+  margin-top: 12rem;
+  font-weight: 600;
+  font-size: 5rem;
+  color: #fff;
+}
+.page404 #timer {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #ffd60a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
 }
