@@ -139,12 +139,18 @@ a {
   font-family: "Poppins", sans-serif;
   color: #25ced1;
 }
-#container-middle .poster {
+#container-middle .poster,
+.posterHorizontal {
   display: flex;
   justify-content: center;
 }
 #container-middle .poster img {
   height: 240px;
+  width: auto;
+  padding: 0px 10px 30px 10px;
+}
+#container-middle .posterHorizontal img {
+  height: 350px;
   width: auto;
   padding: 0px 10px 30px 10px;
 }
@@ -159,7 +165,7 @@ a {
   padding-top: 15px;
 }
 #container-middle .play img {
-  max-height: 70px;
+  max-height: 0px;
   width: auto;
 }
 
