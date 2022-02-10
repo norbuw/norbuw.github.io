@@ -190,25 +190,13 @@ span {
 }
 
 /* CV */
-.btn {
-  background-color: #fff;
-  width: 130px;
-  border-radius: 15px;
-  padding: 5px;
-  border: none;
-  margin: 5px;
-}
-.btn:hover {
-  background-color: #000;
-}
 .cv a {
-  font-size: medium;
-  font-weight: 600;
+  font-weight: 700;
   color: #000;
   text-decoration: none;
 }
 a:hover {
-  color: #25ced1;
+  color: #fff;
 }
 .social img {
   max-height: 1.6rem;
