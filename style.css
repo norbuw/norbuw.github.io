@@ -192,11 +192,11 @@ span {
 /* CV */
 .cv a {
   font-weight: 700;
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 a:hover {
-  color: #fff;
+  color: #000;
 }
 .social img {
   max-height: 1.6rem;
