@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  /* font-family: "Josefin Sans", sans-serif; */
-  /* font-family: "Montserrat", sans-serif; */
   font-family: "Poppins", sans-serif;
   background-color: #25ced1;
 }
@@ -81,7 +79,7 @@ a {
   text-align: center;
 }
 
-/* Top section */
+/* Skill Section */
 #container-top {
   height: 650px;
   width: 100%;
@@ -89,7 +87,6 @@ a {
 .top-title {
   padding: 100px 0px 30px 0px;
 }
-
 .flip-card {
   background-color: transparent;
   width: 275px;
@@ -123,12 +120,12 @@ a {
   border-radius: 20px;
 }
 .flip-card-back {
-  background-color: #495867;
+  background-color: #565d64;
   border-radius: 20px;
   transform: rotateY(180deg);
 }
 
-/* Container-middle */
+/* Project Section */
 #container-middle {
   background-color: #495867;
   height: 1800px;
@@ -166,7 +163,7 @@ a {
   width: auto;
 }
 
-/* Container-bottom */
+/* About Page */
 #container-bottom {
   height: 650px;
   width: 100%;
@@ -175,10 +172,9 @@ a {
   padding: 100px 0px 30px 0px;
 }
 .photo img {
-  height: 200px;
+  height: 40vh;
   width: auto;
   float: left;
-  padding: 0px 5px 0px 80px;
 }
 #container-bottom .text {
   max-height: 900px;
@@ -189,13 +185,10 @@ a {
 .btn {
   background-color: #fff;
   width: 130px;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 5px;
   border: none;
   margin: 5px;
-  box-shadow: rgba(255, 253, 253, 0.4) 0px 0px 0px 2px,
-    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
-    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 .btn:hover {
   background-color: #000;
@@ -209,24 +202,28 @@ a {
 a:hover {
   color: #25ced1;
 }
+.social img {
+  max-height: 1.6rem;
+  width: auto;
+  padding: 2px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.social a:hover {
+  transform: scale(1.2);
+}
 /* Footer */
 .footer {
-  background-color: #fff;
-  padding: 1px;
+  width: 100%;
+  max-height: 2rem;
+  bottom: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-.footer img {
-  max-height: 30px;
-  width: auto;
-  padding: 3px;
+  position: fixed;
 }
 .footer p {
-  font-family: "Montserrat", sans-serif;
   color: #495867;
-  font-size: 0.8em;
-}
-.footer a:hover {
-  transform: scale(1.1);
+  padding: 2px;
+  font-size: 0.7em;
 }
