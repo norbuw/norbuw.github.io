@@ -44,10 +44,10 @@ span {
 /* Navigation bar */
 .navbar {
   /* background-color: #fff; */
-  /* position: fixed; */
+  position: fixed;
   width: 100%;
   text-align: center;
-  list-style-type: none;
+  list-style: none;
 }
 .navbar ul li {
   width: 150px;
@@ -56,7 +56,7 @@ span {
 .navbar ul li a {
   text-decoration: none;
   color: #495867;
-  font-size: 6.2rem;
+  font-size: 6rem;
   font-family: "Montserrat", sans-serif;
   padding: 2rem;
   letter-spacing: -0.3rem;
@@ -71,11 +71,15 @@ span {
   margin-left: auto;
   /* z-index: 2; */
 }
+.container img {
+  width: 1.5rem;
+}
+
 /* Main header */
 #container-head {
   background-color: #ffd670;
   height: 95vh;
-  padding-top: 4rem;
+  padding-top: 9rem;
   line-height: 1;
 }
 
@@ -83,9 +87,10 @@ span {
 #container-top {
   background-color: #ffd670;
   height: 98vh;
+  padding-top: 8rem;
 }
 .top-title {
-  padding: 3rem 0;
+  padding-bottom: 3rem;
 }
 .flip-card {
   background-color: transparent;
@@ -133,7 +138,7 @@ span {
   background-color: #ffd670;
   height: 350vh;
   width: 100%;
-  padding: 3rem 0;
+  padding-top: 7rem;
 }
 #container-middle .poster-title span {
   display: flex;
@@ -183,7 +188,10 @@ span {
   background-color: #ffd670;
   height: 98vh;
   width: 100%;
-  padding: 3rem 0;
+  padding: 7rem 0;
+}
+.bottom-title {
+  padding-bottom: 3rem;
 }
 .photo img {
   height: 40vh;
@@ -214,7 +222,7 @@ a:hover {
   background-color: #fff;
   border: none;
   border-radius: 1rem;
-  margin: 3rem 1rem 3rem 1rem;
+  margin: 1rem 1rem 3rem 1rem;
 }
 .social a:hover {
   transform: scale(1.2);
