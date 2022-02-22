@@ -140,6 +140,9 @@ img:hover {
   margin: 2rem 0rem;
   color: #fff;
 }
+.contactForm p {
+  text-align: center;
+}
 .contactForm form div {
   padding: 0.3rem;
   text-align: center;
