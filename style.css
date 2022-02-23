@@ -217,13 +217,14 @@ blockquote {
 a:hover {
   color: #fff;
 }
-.social img {
+.cv .social img {
   max-height: 2rem;
   background-color: #fff;
   border: none;
   border-radius: 1rem;
-  margin: 1rem 1rem 3rem 1rem;
+  margin: 0.2rem;
 }
+
 .social a:hover {
   transform: scale(1.2);
 }
