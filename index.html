@@ -17,7 +17,7 @@
 
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar">
+    <nav id="navbar">
         <ul>
             <li><a href="#container-head">home</a></li>
             <li><a href="#container-top">skills</a></li>
@@ -148,6 +148,18 @@
                                 alt="home page for enes freedom"></a>
                     </div>
                 </div>
+                <!-- enes -->
+                <div class="poster-title">
+                    <span>3. création d'une page web en utilisant HTML, CSS, JavaScript, PHP et MySQL (cliquez sur
+                        l'image pour voir
+                        la page)</span>
+                </div>
+                <div class="posterHorizontal">
+                    <div>
+                        <a href="tibetParis/index.html" target="_blank"><img src="./photo/tibetParis.png"
+                                alt="tibet paris home page"></a>
+                    </div>
+                </div>
             </div>
             <!-- About page -->
             <div id="container-bottom">
@@ -169,30 +181,29 @@
                             simplicité et la finalité sur internet et dans la vie. Je suis toujours ouvert à
                             l'apprentissage et à l'amélioration de mes compétences et de moi-même, car il n'y a pas de
                             fin à l'apprentissage, mais il y a de nombreux débuts.</p> <br>
-                            L'une de mes citations préférées est celle de Tenzin Gyatso, le 14ème Dalaï Lama du Tibet : <br>
-                            <blockquote>"Si tu veux que les autres soient heureux, pratique la compassion. Si vous voulez
-                                être heureux, pratiquez la compassion."</blockquote>
-                                <br>
-                                
-                            </div>
-                            <div class="cv">
-                                <a href="./photo/norbuCvFrançais.pdf" target="_blank">CV FRANÇAIS</a> <br>
-                                <a href="./photo/norbuCvAnglais.pdf" target="_blank">CV ENGLISH</a>
-                                <div class="social">
-                                    <a href="https;//www.linkedin.com/in/norbu-gyachung" target="_blank">
-                                        <img src="./icon/linkedin.png" alt="linkedin logo">
-                                    </a>
-                                    <a href="https://www.instagram.com/norbu2462" target="_blank">
-                                        <img src="./icon/instagram.png" alt="insta logo">
-                                    </a>
-                                    <a href="https://unsplash.com/@norbuw" target="_blank">
-                                        <img src="./icon/unsplash.png" alt="unsplash logo">
-                                    </a>
-                                    <a href="mailto:norbuw@gmail.com" target="_blank">
-                                        <img src="./icon/gmail.png" alt="email">
-                                    </a>
-                                </div>
-                            </div>
+                        L'une de mes citations préférées est celle de Tenzin Gyatso, le 14ème Dalaï Lama du Tibet : <br>
+                        <blockquote>"Si tu veux que les autres soient heureux, pratique la compassion. Si vous voulez
+                            être heureux, pratiquez la compassion."</blockquote>
+                        <br>
+
+                    </div>
+                    <div class="cv">
+                        <a href="./photo/ResumeNorbu.pdf" target="_blank">RESUME</a> <br><br>
+                        <div class="social">
+                            <a href="https;//www.linkedin.com/in/norbu-gyachung" target="_blank">
+                                <img src="./icon/linkedin.png" alt="linkedin logo">
+                            </a>
+                            <a href="https://www.instagram.com/norbu2462" target="_blank">
+                                <img src="./icon/instagram.png" alt="insta logo">
+                            </a>
+                            <a href="https://unsplash.com/@norbuw" target="_blank">
+                                <img src="./icon/unsplash.png" alt="unsplash logo">
+                            </a>
+                            <a href="mailto:norbuw@gmail.com" target="_blank">
+                                <img src="./icon/gmail.png" alt="email">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -205,6 +216,20 @@
         </div>
     </footer>
 
+    <!-- Scroll Navbar JS -->
+
+    <script>
+        var prevScrollPos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollPos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-7rem";
+            }
+            prevScrollPos = currentScrollPos;
+        }
+    </script>
 </body>
 
 </html>

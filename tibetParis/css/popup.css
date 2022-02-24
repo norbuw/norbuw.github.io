@@ -1,0 +1,101 @@
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  color: #0949aa;
+  font-size: 0.6rem;
+  visibility: hidden;
+  width: 12vw;
+  background-color: #617797;
+  color: #fff;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 0.5rem 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 0%;
+  left: 170%;
+  margin-left: -80px;
+}
+.popuptext span {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ************* */
+
+.overlayFlight {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlayFlight:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popupFlight {
+  margin: 5rem auto;
+  padding: 1rem;
+  background: #000;
+  border-radius: 1rem;
+  width: 25vw;
+  position: relative;
+  transition: all 2s ease-in-out;
+  color: #fff;
+}
+.popupFlight span {
+  font-size: 0.8rem;
+  color: #f10000;
+}
+.popupFlight .closeFlight {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.1rem;
+  transition: all 200ms;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #f10000;
+}
+.popupFlight .contentFlight {
+  max-height: 30%;
+  overflow: auto;
+  color: #fff;
+}
