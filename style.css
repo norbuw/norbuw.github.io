@@ -17,7 +17,7 @@ h1 {
   width: 70vw;
 }
 h2 {
-  color: #495867;
+  color: #fff;
   text-align: center;
   font-size: 2em;
 }
@@ -74,7 +74,7 @@ span {
   margin-left: auto;
 }
 .container img {
-  width: 1.5rem;
+  width: 1.9rem;
 }
 
 /* Main header */
@@ -138,7 +138,7 @@ span {
 /* Project Section */
 #container-middle {
   background-color: #ffd670;
-  height: 350vh;
+  height: 450vh;
   width: 100%;
   padding-top: 7rem;
 }
@@ -244,4 +244,15 @@ a:hover {
   color: #000;
   padding: 0.2rem;
   font-size: 0.8em;
+}
+
+/* Scroll to the top */
+#scrollToHome,
+#scrollToHome1,
+#scrollToHome2 {
+  cursor: pointer;
+  margin-top: 5rem;
+  width: 2rem;
+  height: 3rem;
+  float: right;
 }

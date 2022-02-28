@@ -30,7 +30,7 @@
         <main>
             <div id="container-head">
                 <img src="/icon/buddha.png" alt="endless knot">
-                <span> Norbu Gyachung</span>
+                <span> Norbu GYACHUNG</span>
                 <h1>Concepteur et développeur qui se consacre à la création de belles expériences web axées sur la
                     simplicité et l'objectif.</h1>
             </div>
@@ -93,6 +93,8 @@
                         </div>
                     </div>
                 </div>
+                <!-- Scroll to the top -->
+                <img src="/icon/up-arrow.png" id="scrollToHome" alt="arrow up">
             </div>
             <!-- Project section -->
             <div id="container-middle">
@@ -160,6 +162,8 @@
                                 alt="tibet paris home page"></a>
                     </div>
                 </div>
+                <!-- Scroll to the top -->
+                <img src="/icon/up-arrow.png" id="scrollToHome1" alt="arrow up">
             </div>
             <!-- About page -->
             <div id="container-bottom">
@@ -203,10 +207,11 @@
                                 <img src="./icon/gmail.png" alt="email">
                             </a>
                         </div>
+                        <img src="/icon/up-arrow.png" id="scrollToHome2" alt="arrow up">
                     </div>
+
                 </div>
             </div>
-
         </section>
     </div>
     <!-- Footer -->
@@ -229,6 +234,22 @@
             }
             prevScrollPos = currentScrollPos;
         }
+        //  Scroll to top
+        var scrollToTopBtn = document.getElementById("scrollToHome");
+        var scrollToTopBtn1 = document.getElementById("scrollToHome1");
+        var scrollToTopBtn2 = document.getElementById("scrollToHome2");
+        var rootElement = document.documentElement;
+
+        function scrollToTop() {
+            // Scroll to top logic
+            rootElement.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+        scrollToTopBtn.addEventListener("click", scrollToTop);
+        scrollToTopBtn1.addEventListener("click", scrollToTop);
+        scrollToTopBtn2.addEventListener("click", scrollToTop);
     </script>
 </body>
 
