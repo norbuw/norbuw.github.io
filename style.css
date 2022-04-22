@@ -23,9 +23,15 @@ h2 {
 }
 h3 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   /* color: #ec6834; */
+}
+h4 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
 }
 
 /* Side  navbar */
@@ -85,6 +91,7 @@ h3 {
   cursor: pointer;
   padding: 0.3rem;
   border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #topBtn:hover {
   color: #ec6834;
@@ -142,7 +149,7 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 3rem;
+  margin-bottom: 3rem;
   margin-top: -10rem;
 }
 .orange {
@@ -242,37 +249,44 @@ blockquote {
   padding: 3rem 0;
 }
 .contactForm form div {
-  padding: 0.5rem;
+  padding: 0.3rem;
   text-align: center;
 }
 .contactForm input {
   height: 4vh;
   width: 25vw;
   border: none;
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem;
+  font-weight: 200;
+}
+.contactForm label {
+  font-weight: 500;
 }
 .contactForm textarea {
   width: 25vw;
   border: none;
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem;
+  font-weight: 200;
 }
 .btn {
   margin-top: 0rem;
   background-color: #ec6834;
   color: #f4f3ee;
   border: none;
+  border-radius: 0.5rem;
   padding: 0.5rem;
   text-align: center;
   text-decoration: none;
   font-size: 1em;
   cursor: pointer;
   width: 25vw;
-  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .btn:hover {
   background-color: #f4f3ee;
   color: #ec6834;
-}
-.formText {
-  font-size: 0.7rem;
 }
 .contactForm img {
   max-width: 2vw;
@@ -283,15 +297,18 @@ blockquote {
 .contactForm img:hover {
   opacity: .5;
 }
-
+.formText {
+  font-size: 0.6rem;
+}
 /* Footer */
 .footer {
-  color: #ec6834;
+  color: #527381;
   font-size: 0.6rem;
   position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
+  /* background-color: #f4f3ee; */
 }
 
 /* Responsive */
