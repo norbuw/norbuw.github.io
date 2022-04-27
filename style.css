@@ -110,9 +110,10 @@ h4 {
 .toolContainer,
 .photoContainer,
 .designContainer,
-.devContainer {
+.devContainer,
+.contactContainer {
   background-color: #f4f3ee;
-  height: 100vh;
+  height: 93vh;
   width: 65%;
   margin: 2rem auto;
   display: flex;
@@ -245,14 +246,11 @@ blockquote {
 }
 
 /* Contact Page */
-.contactForm {
-  padding: 3rem 0;
-}
-.contactForm form div {
+.contactContainer form div {
   padding: 0.3rem;
   text-align: center;
 }
-.contactForm input {
+.contactContainer input {
   height: 4vh;
   width: 25vw;
   border: none;
@@ -260,10 +258,10 @@ blockquote {
   padding: 1rem;
   font-weight: 200;
 }
-.contactForm label {
+.contactContainer label {
   font-weight: 500;
 }
-.contactForm textarea {
+.contactContainer textarea {
   width: 25vw;
   border: none;
   font-family: 'Poppins', sans-serif;
@@ -288,13 +286,13 @@ blockquote {
   background-color: #f4f3ee;
   color: #ec6834;
 }
-.contactForm img {
+.contactContainer img {
   max-width: 2vw;
   margin: 1rem;
   opacity: 1;
 	transition: .3s ease-in-out;
 }
-.contactForm img:hover {
+.contactContainer img:hover {
   opacity: .5;
 }
 .formText {
