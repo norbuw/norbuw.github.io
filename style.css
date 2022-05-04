@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  outline: none;
 }
 html {
   scroll-behavior: smooth;
@@ -12,7 +15,6 @@ html {
   overflow-x: hidden;
 }
 body {
-  font-family: "Poppins", sans-serif;
   color: #527381;
   /* min-height: 100vh; */
   background-color: #f4f3ee;
@@ -51,7 +53,6 @@ h4 {
   letter-spacing: 0.1rem;
 }
 .sidebar nav li a {
-  text-decoration: none;
   color: #527381;
   cursor: pointer;
   transition-duration: 0.3s;
@@ -92,7 +93,8 @@ h4 {
   padding: 0.3rem;
   border-radius: 0.3rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0rem 0.10rem 0.5rem;}
-#topBtn:hover {
+  
+  #topBtn:hover {
   color: #ec6834;
   background-color: #f4f3ee;
 }
@@ -246,14 +248,13 @@ blockquote {
 
 /* Contact Page */
 .contactContainer form div {
-  padding: 0.3rem;
+  padding: 0.5rem;
   text-align: center;
 }
 .contactContainer input {
-  height: 4vh;
-  width: 25vw;
+  height: 6vh;
+  width: 100%;
   border: none;
-  font-family: 'Poppins', sans-serif;
   padding: 1rem;
   font-weight: 200;
 }
@@ -261,9 +262,8 @@ blockquote {
   font-weight: 500;
 }
 .contactContainer textarea {
-  width: 25vw;
+  width: 100%;
   border: none;
-  font-family: 'Poppins', sans-serif;
   padding: 1rem;
   font-weight: 200;
 }
@@ -275,19 +275,18 @@ blockquote {
   border-radius: 0.5rem;
   padding: 0.5rem;
   text-align: center;
-  text-decoration: none;
   font-size: 1em;
   cursor: pointer;
-  width: 25vw;
+  width: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .btn:hover {
   background-color: #f4f3ee;
   color: #ec6834;
 }
-.contactContainer img {
-  max-width: 2vw;
-  margin: 1rem;
+.contactContainer .social img {
+  width: 2rem;
+  margin: 0.5rem;
   opacity: 1;
 	transition: .3s ease-in-out;
 }
@@ -311,7 +310,7 @@ blockquote {
 /* Responsive */
 @media (max-width: 1024px) {
   .pic {
-    display: none;
+    /* display: none; */
   }
   .infocontainer,
   .aboutContainer,

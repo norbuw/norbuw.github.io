@@ -50,7 +50,10 @@ h3 {
 
 /* About Page */
 .aboutContainer {
-  margin-top: 1rem;
+  margin-top: -2rem;
+}
+.about {
+  flex-direction: column;
 }
 .aboutText {
   margin: 0 0.5rem;
@@ -61,7 +64,7 @@ blockquote {
   font-size: 0.8rem;
 }
 .pic img {
-  display: none;
+  height: 5rem
 }
 
 /* Tools */
@@ -82,11 +85,17 @@ blockquote {
   margin: -12rem 0 0 0;
 }
 .flag {
-  margin-top: -22rem;
+  margin-top: -33rem;
   flex-wrap: wrap;
 }
 
 /* Photo page */
+.photo {
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: -21rem;
+}
+
 .photoContainer img {
   width: 8rem;
   margin: 1rem;
@@ -123,19 +132,13 @@ blockquote {
 .contactForm {
   margin-top: -3rem;
 }
-.contactForm input {
-  width: 60vw;
-}
-.contactForm textarea {
-  width: 60vw;
-}
 .contactForm label {
   font-size: 0.8rem;
 }
 .formText {
   font-size: 0.5rem;
 }
-.social img {
+.contactContainer .social img {
   width: 1rem;
 }
 .btn {
