@@ -115,7 +115,7 @@ h4 {
 .contactContainer {
   background-color: #f4f3ee;
   height: 93vh;
-  width: 65%;
+  width: 70%;
   margin: 2rem auto;
   display: flex;
   justify-content: center;
@@ -253,7 +253,7 @@ blockquote {
 }
 .contactContainer input {
   height: 6vh;
-  width: 100%;
+  width: 25rem;
   border: none;
   padding: 1rem;
   font-weight: 200;
@@ -262,7 +262,7 @@ blockquote {
   font-weight: 500;
 }
 .contactContainer textarea {
-  width: 100%;
+  width: 25rem;
   border: none;
   padding: 1rem;
   font-weight: 200;
@@ -277,7 +277,7 @@ blockquote {
   text-align: center;
   font-size: 1em;
   cursor: pointer;
-  width: 100%;
+  width: 25rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .btn:hover {
@@ -307,14 +307,4 @@ blockquote {
   /* background-color: #f4f3ee; */
 }
 
-/* Responsive */
-@media (max-width: 1024px) {
-  .pic {
-    /* display: none; */
-  }
-  .infocontainer,
-  .aboutContainer,
-  .contactForm {
-    margin: 1rem, 0.5rem;
-  }
-}
+

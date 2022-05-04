@@ -132,6 +132,9 @@ blockquote {
 .contactForm {
   margin-top: -3rem;
 }
+.contactContainer input, .contactContainer textarea, .btn {
+  width: 10rem;
+}
 .contactForm label {
   font-size: 0.8rem;
 }
