@@ -242,26 +242,26 @@
         <div class="container">
             <h4>Let's make something great</h4>
             <div class="contactContainer">
-                <form method="post" action="action.php">
+                <form method="post" onsubmit="sendEmail(); reset(); return false;">
                     <div class="form">
                         <!-- <label for="name">NAME</label> <br> -->
-                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="text" id="name" placeholder="Name" required>
                     </div>
                     <div class="form">
                         <!-- <label for="email">EMAIL</label> <br> -->
-                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="email" id="email" placeholder="Email" required>
                     </div>
                     <div class="form">
-                        <!-- <label for="email">EMAIL</label> <br> -->
-                        <input type="subject" name="subject" placeholder="Subject" required>
+                        <!-- <label for="email">SUBJECT</label> <br> -->
+                        <input type="text" id="subject" placeholder="Subject" required>
                     </div>
                     <div class="form">
                         <!-- <label for="phone">MESSAGE</label> <br> -->
-                        <textarea name="message" cols="30" rows="9" placeholder="Message"></textarea>
+                        <textarea id="message" cols="30" rows="9" placeholder="Message"></textarea>
                     </div>
                     <div class="formText">I'll never share your name & email with anyone else.</div>
                     <div class="form">
-                        <button type="submit" name="submit" class="btn">SEND</button>
+                        <button type="submit" class="btn" id="button">SEND</button>
                         <div class="social">
                             <a href="https://www.linkedin.com/in/norbu-gyachung" target="_blank">
                                 <img src="img/icons/linkedin.png" alt="linkedin icon"></a>
@@ -285,6 +285,7 @@
             <p>ALL CONTENT COPYRIGHT &copy; NORBU GYACHUNG</p>
         </div>
     </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
 </body>
 

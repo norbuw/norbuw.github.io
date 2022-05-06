@@ -256,6 +256,9 @@ blockquote {
   padding: 3rem 0;
   margin-bottom: 3rem;
 }
+.contactContainer {
+  margin-top: -1rem;
+}
 .contactContainer form div {
   padding: 0.5rem;
   text-align: center;
