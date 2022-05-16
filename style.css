@@ -94,7 +94,7 @@ h4 {
   background-color: #d8315b;
   color: #ffffff;
   cursor: pointer;
-  padding: 0.3rem;
+  padding: 0.8rem 0.3rem;
   border-radius: 0.3rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0rem 0.10rem 0.5rem;}
   
@@ -291,7 +291,7 @@ blockquote {
   background-color: #d8315b;
   color: #ffffff;
   border: none;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
   padding: 0.5rem;
   text-align: center;
   font-size: 1em;
