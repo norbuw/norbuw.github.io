@@ -246,7 +246,7 @@ blockquote {
   margin-top: -21rem;
 }
 .devContainer img {
-  max-height: 35vh;
+  max-height: 25vh;
   width: auto;
   opacity: 0.6;
   cursor: pointer;
@@ -268,7 +268,7 @@ blockquote {
   padding: 0.5rem;
   text-align: center;
 }
-.contactContainer input {
+/* .contactContainer input {
   height: 6vh;
   width: 25rem;
   border: none;
@@ -291,7 +291,6 @@ blockquote {
   background-color: #d8315b;
   color: #ffffff;
   border: none;
-  /* border-radius: 0.5rem; */
   padding: 0.5rem;
   text-align: center;
   font-size: 1em;
@@ -302,9 +301,9 @@ blockquote {
 .btn:hover {
   background-color: #ffffff;
   color: #d8315b;
-}
+} */
 .contactContainer .social img {
-  width: 2rem;
+  width: 3rem;
   margin: 0.5rem;
   opacity: 1;
 	transition: .3s ease-in-out;

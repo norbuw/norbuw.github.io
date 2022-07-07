@@ -1,0 +1,97 @@
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 2rem;
+}
+
+/* Common for most pages*/
+.mainContainer,
+.aboutContainer,
+.toolContainer,
+.photoContainer {
+  height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+}
+.about,
+.tool,
+.flag,
+.photo
+.design,
+.dev {
+  margin-top: -8rem;
+}
+
+/* Main Home Page */
+.info {
+  line-height: 1;
+  letter-spacing: -0.1rem;
+}
+
+/* About Page */
+.aboutContainer {
+  margin-top: 1rem;
+}
+.about {
+  flex-direction: column;
+}
+.aboutText {
+  margin: 0 0.5rem;
+  line-height: 1.2;
+}
+.pic img {
+  height: 6rem
+}
+
+/* Tools */
+.toolContainer {
+  margin-top: 3rem;
+}
+.toolContainer div {
+  margin-bottom: 1rem;
+}
+.toolContainer img {
+  max-width: 3rem;
+  margin: 0rem 3rem;
+}
+.toolContainer p {
+  font-size: 0.9rem;
+  margin: 0 2rem;
+}
+.toolContainer span {
+  font-size: 1rem;
+  margin: -21rem 0 0 0;
+}
+.flag {
+  margin-top: -21rem;
+}
+
+/* Photo page */
+.photoContainer {
+  margin-top: 3rem;
+}
+.photoContainer img {
+  width: 10rem;
+}
+
+/* Design page */
+.designContainer img {
+  max-height: 18vh;
+}
+
+/* Webdev page */
+.dev{
+  flex-wrap: wrap;
+}
+.devContainer img {
+  max-height: 25vh;
+  min-width: 31vw;
+}
+
+/* Contact Page */
+
+.contactContainer .social img {
+  width: 2rem;
+}
+

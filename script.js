@@ -20,7 +20,7 @@ var topbutton = document.getElementById("topBtn");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
     topbutton.style.display = "block";
   } else {
     topbutton.style.display = "none";
@@ -33,19 +33,19 @@ function topFunction() {
 }
 
 // Email 
-function sendEmail() {
-  Email.send({
-      Host: "smtp.gmail.com",
-      Username: "norbuw@gmail.com",
-      Password: "eesfzcemewojfnkn",
-      To: 'norbuw@gmail.com',
-      From: document.getElementById("email").value,
-      Subject: "New Contact Form Enquiry",
-      Body: "Name: " + document.getElementById("name").value + "<br> Email: "
-          + document.getElementById("email").value + "<br> Subject: "
-          + document.getElementById("subject").value + "<br> Message: "
-          + document.getElementById("message").value
-  }).then(
-      message => alert("Mail Sent Successfully")
-  );
-}
+// function sendEmail() {
+//   Email.send({
+//       Host: "smtp.gmail.com",
+//       Username: "norbuw@gmail.com",
+//       Password: "eesfzcemewojfnkn",
+//       To: 'norbuw@gmail.com',
+//       From: document.getElementById("email").value,
+//       Subject: "New Contact Form Enquiry",
+//       Body: "Name: " + document.getElementById("name").value + "<br> Email: "
+//           + document.getElementById("email").value + "<br> Subject: "
+//           + document.getElementById("subject").value + "<br> Message: "
+//           + document.getElementById("message").value
+//   }).then(
+//       message => alert("Mail Sent Successfully")
+//   );
+// }
