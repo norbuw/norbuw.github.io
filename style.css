@@ -20,7 +20,7 @@ html {
 }
 body {
   color: #000;
-  background-color: #fff;
+  background-color:#fff;
 }
 h2 {
   font-size: 7rem;
@@ -32,7 +32,7 @@ h3 {
   font-weight: 600;
   box-shadow: rgba(0, 0, 0, 0.45) 0rem 1rem 1rem -1rem;
   text-transform: uppercase;
-  color: #d8315b;
+  color: #0540F2;
 }
 h4 {
   text-align: center;
@@ -59,10 +59,9 @@ h4 {
 .sidebar nav li a {
   color: #000;
   cursor: pointer;
-  transition-duration: 0.3s;
 }
 .sidebar nav li a:hover {
-  color: #d8315b;
+  color: #0540F2;
   font-weight: 600;
 }
 .sidebarGo {
@@ -91,15 +90,15 @@ h4 {
   font-size: 1rem;
   border: none;
   outline: none;
-  background-color: #d8315b;
-  color: #ffffff;
+  background-color: #0540F2;
+  color: #fff;
   cursor: pointer;
   padding: 0.8rem 0.3rem;
   border-radius: 0.3rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0rem 0.10rem 0.5rem;}
   
   #topBtn:hover {
-  color: #d8315b;
+  color: #0540F2;
   background-color: #fff;
 }
 
@@ -163,8 +162,8 @@ section {
   margin-bottom: 3rem;
   margin-top: -10rem;
 }
-.orange {
-  color: #d8315b;
+.purple {
+  color: #0540F2;
 }
 
 /* About Page */
@@ -178,11 +177,11 @@ section {
 blockquote {
   font-size: 1.1rem;
   font-weight: 500;
-  color: #d8315b;
+  color: #0540F2;
 }
 .pic img {
   height: 15rem;
-  border: #d8315b 0.2rem solid;
+  border: #0540F2 0.2rem solid;
   border-radius: 21rem;
   padding: 0.3rem;
 }
@@ -288,7 +287,7 @@ blockquote {
 }
 .btn {
   margin-top: 0rem;
-  background-color: #d8315b;
+  background-color: #0540F2;
   color: #ffffff;
   border: none;
   padding: 0.5rem;
@@ -300,7 +299,7 @@ blockquote {
 }
 .btn:hover {
   background-color: #ffffff;
-  color: #d8315b;
+  color: #0540F2;
 } */
 .contactContainer .social img {
   width: 3rem;

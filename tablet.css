@@ -28,7 +28,9 @@ h3 {
   line-height: 1;
   letter-spacing: -0.1rem;
 }
-
+.logo {
+  width: 3rem;
+}
 /* About Page */
 .aboutContainer {
   margin-top: 1rem;
