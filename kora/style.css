@@ -210,7 +210,7 @@ body {
     letter-spacing: -0.5rem;
   }
   .main p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: -2rem;
   }
   .container_items h2 {
@@ -239,10 +239,10 @@ body {
   }
   .main h1 {
     font-size: 15rem;
-    letter-spacing: -1rem;
+    letter-spacing: -0.1rem;
   }
   .main p {
-    font-size: 2rem;
+    font-size: 4rem;
     margin-top: -3rem;
   }
   .container_items h2 {
