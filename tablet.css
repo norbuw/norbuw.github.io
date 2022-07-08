@@ -85,14 +85,15 @@ h3 {
 /* Webdev page */
 .dev{
   flex-wrap: wrap;
+  margin-top: -4rem;
 }
 .devContainer img {
   max-height: 25vh;
   min-width: 31vw;
+  margin: 0.2rem 0.5rem;
 }
 
 /* Contact Page */
-
 .contactContainer .social img {
   width: 2rem;
 }

@@ -116,13 +116,13 @@ blockquote {
 
 /* Webdev page */
 .dev {
-  margin-top: -1rem;
+  margin-top: -15rem;
   display: flex;
   flex-wrap: wrap;
 }
 .devContainer img {
-  max-height: 15vh;
-  margin: 1rem 0 0 0;
+  max-height: 13vh;
+  margin: 0.3rem;
 }
 
 /* Contact Page */

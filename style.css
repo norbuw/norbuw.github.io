@@ -242,7 +242,8 @@ blockquote {
 
 /* Webdev page */
 .dev {
-  margin-top: -21rem;
+  margin-top: -15rem;
+  flex-wrap: wrap;
 }
 .devContainer img {
   max-height: 25vh;
@@ -250,6 +251,9 @@ blockquote {
   opacity: 0.6;
   cursor: pointer;
   margin: 0.5rem;
+}
+.devContainer p {
+  margin: -0.5rem 0 0.5rem 0;
 }
 .devContainer img:hover {
   opacity: 100;
