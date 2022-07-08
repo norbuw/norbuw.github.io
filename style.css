@@ -317,6 +317,17 @@ blockquote {
 .formText {
   font-size: 0.6rem;
 }
+.contactContainer .resume a {
+  background-color: #0540F2;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5rem;
+}
+.contactContainer .resume a:hover {
+  background-color: #6383e4;
+  color: #fff;
+}
 /* Footer */
 .footer {
   color: #000;
