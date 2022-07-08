@@ -51,7 +51,7 @@ h3 {
 
 /* About Page */
 .aboutContainer {
-  margin-top: 0rem;
+  margin-top: -2rem;
 }
 .about {
   flex-direction: column;
@@ -65,7 +65,7 @@ blockquote {
   font-size: 0.9rem;
 }
 .pic img {
-  height: 5rem
+  height: 8rem
 }
 
 /* Tools */
