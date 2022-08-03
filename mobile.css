@@ -36,7 +36,7 @@ h3 {
 .flag,
 .design,
 .dev {
-  margin-top: -3rem;
+  margin-top: -4rem;
 }
 
 /* Main Home Page */
@@ -51,13 +51,13 @@ h3 {
 
 /* About Page */
 .aboutContainer {
-  margin-top: 1.2rem;
+  margin-top: 4rem;
 }
 .about {
   flex-direction: column;
 }
-.aboutText {
-  margin: 0 0.5rem;
+.aboutText p {
+  margin: 0.5rem;
   line-height: 1.2;
   font-size: 0.9rem;
 }
@@ -69,8 +69,11 @@ blockquote {
 }
 
 /* Tools */
-.toolContainer {
+#tools {
   margin-top: 2rem;
+}
+.toolContainer {
+  margin-top: 3rem;
 }
 .toolContainer div {
   margin-bottom: 1rem;
