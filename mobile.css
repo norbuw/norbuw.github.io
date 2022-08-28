@@ -51,7 +51,7 @@ h3 {
 
 /* About Page */
 .aboutContainer {
-  margin-top: 4rem;
+  margin-top: 0rem;
 }
 .about {
   flex-direction: column;
@@ -70,7 +70,7 @@ blockquote {
 
 /* Tools */
 #tools {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 .toolContainer {
   margin-top: 3rem;
@@ -97,6 +97,9 @@ blockquote {
 }
 
 /* Photo page */
+#photo {
+  margin-top: 4rem;
+}
 .photo {
   flex-direction: column;
   gap: 3rem;
@@ -109,6 +112,9 @@ blockquote {
 }
 
 /* Design page */
+#design {
+  margin-top: 4rem;
+}
 .design {
   display: flex;
   flex-wrap: wrap;
@@ -118,6 +124,9 @@ blockquote {
 }
 
 /* Webdev page */
+#webdev {
+  margin-top: 4rem;
+}
 .dev {
   margin-top: -15rem;
   display: flex;
@@ -129,6 +138,9 @@ blockquote {
 }
 
 /* Contact Page */
+#contact {
+  margin-top: 4rem;
+}
 .contactContainer .social img {
   width: 1.5rem;
 }
