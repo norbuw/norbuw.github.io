@@ -78,7 +78,7 @@ h3 {
 }
 
 /* Design page */
-.designContainer img {
+.designContainer .design figure img {
   max-height: 18vh;
 }
 

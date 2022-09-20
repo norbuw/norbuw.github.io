@@ -226,18 +226,21 @@ blockquote {
 }
 
 /* Design page */
-.designContainer img {
+.designContainer .design figure img {
   max-height: 25vh;
   width: auto;
   opacity: 0.6;
   cursor: zoom-in;
   margin: 0 0.5rem;
 }
-.designContainer img:hover {
+.designContainer .design figure img:hover {
   opacity: 100;
   max-height: 65vh;
   margin: 0em;
   transition: max-height 3s;
+}
+.designContainer .design figure figcaption {
+  font-size: 0.7rem;
 }
 
 /* Webdev page */
