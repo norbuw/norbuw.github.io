@@ -5,6 +5,23 @@ h3 {
   font-size: 2rem;
 }
 
+/* Side  navbar */
+.sidebar nav {
+  padding: 5rem;
+  text-align: center;
+}
+.sidebar nav li {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  letter-spacing: 0rem;
+}
+.sidebar {
+  position: absolute;
+  height: 100%;
+  width: 58%;
+  transition: transform 0.4s ease-in;
+  background: #fff;
+}
 /* Common for most pages*/
 .mainContainer,
 .aboutContainer,

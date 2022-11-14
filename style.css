@@ -44,17 +44,19 @@ h4 {
 .sidebar {
   position: absolute;
   height: 100%;
+  width: 21%;
   transition: transform 0.3s ease-in;
   background: #fff;
 }
 .sidebar nav {
-  padding: 3rem 0 0 2rem;
+  padding: 5rem;
+  text-align: center;
 }
 .sidebar nav li {
   list-style: none;
   font-size: 1.5rem;
   font-weight: 500;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   letter-spacing: 0.1rem;
 }
 .sidebar nav li a {
@@ -63,10 +65,9 @@ h4 {
 }
 .sidebar nav li a:hover {
   color: #0540F2;
-  font-weight: 600;
 }
 .sidebarGo {
-  transform: translate(-27rem, 0rem);
+  transform: translate(-50rem, 0rem);
   position: absolute;
 }
 .hamburger {
@@ -269,46 +270,13 @@ blockquote {
   margin-bottom: 3rem;
 }
 .contactContainer {
-  margin-top: -1rem;
-}
-.contactContainer form div {
-  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
-/* .contactContainer input {
-  height: 6vh;
-  width: 25rem;
-  border: none;
-  padding: 1rem;
-  font-weight: 200;
-  background-color: #efe1e4;
-}
-.contactContainer label {
-  font-weight: 500;
-}
-.contactContainer textarea {
-  width: 25rem;
-  border: none;
-  padding: 1rem;
-  font-weight: 200;
-  background-color: #efe1e4;
-}
-.btn {
-  margin-top: 0rem;
-  background-color: #0540F2;
-  color: #ffffff;
-  border: none;
+.contactContainer .social {
   padding: 0.5rem;
-  text-align: center;
-  font-size: 1em;
-  cursor: pointer;
-  width: 25rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.btn:hover {
-  background-color: #ffffff;
-  color: #0540F2;
-} */
 .contactContainer .social img {
   width: 3rem;
   margin: 0.5rem;

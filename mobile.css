@@ -12,7 +12,7 @@ h3 {
 }
 .sidebar nav li {
   font-size: 1.5rem;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   letter-spacing: 0rem;
 }
 .sidebar {
@@ -33,6 +33,7 @@ h3 {
 .aboutContainer,
 .toolContainer,
 .photoContainer,
+.designContainer,
 .devContainer {
   height: 100vh;
   width: 90%;
@@ -146,8 +147,11 @@ blockquote {
 
 /* Contact Page */
 #contact {
-  margin-top: 4rem;
+  margin-top: 6rem;
+}
+.contactContainer .social {
+  display: flex;
 }
 .contactContainer .social img {
-  width: 1.5rem;
+  width: 2rem;
 }
