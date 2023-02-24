@@ -1,32 +1,25 @@
-h2 {
-  font-size: 4rem;
+.navbar-burger {
+  width: 55px;
+  height: 55px;
 }
-h3 {
-  font-size: 2rem;
+.menu > a {
+  font-size: 1.1rem;
+  transition: 600ms ease;
+  padding: 0rem;
+  text-transform:lowercase;
+}
+h2 {
+  font-size: 2.5rem;
 }
 
-/* Side  navbar */
-.sidebar nav {
-  padding: 5rem;
-  text-align: center;
-}
-.sidebar nav li {
-  font-size: 1.5rem;
-  padding: 1rem 0;
-  letter-spacing: 0rem;
-}
-.sidebar {
-  position: absolute;
-  height: 100%;
-  width: 58%;
-  transition: transform 0.4s ease-in;
-  background: #fff;
-}
 /* Common for most pages*/
 .mainContainer,
 .aboutContainer,
 .toolContainer,
-.photoContainer {
+.photoContainer,
+.designContainer,
+.devContainer,
+.dataContainer {
   height: 100vh;
   width: 90%;
   margin: 0 auto;
@@ -36,28 +29,28 @@ h3 {
 .flag,
 .photo
 .design,
-.dev {
+.dev,
+.data {
   margin-top: -8rem;
 }
 
 /* Main Home Page */
-.info {
-  line-height: 1;
-  letter-spacing: -0.1rem;
+.container .mainContainer h1 {
+  font-size: 4rem;
 }
-.logo {
-  width: 3rem;
-}
+
 /* About Page */
-.aboutContainer {
-  margin-top: 1rem;
-}
 .about {
   flex-direction: column;
 }
 .aboutText p {
   margin: 0 0.5rem;
-  line-height: 1.2;
+  line-height: 1;
+  font-size: 1rem;
+}
+.aboutText blockquote {
+  margin-top: 1rem;
+  font-size: 1.1rem;
 }
 .pic img {
   height: 6rem
@@ -65,14 +58,14 @@ h3 {
 
 /* Tools */
 .toolContainer {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 .toolContainer div {
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 .toolContainer img {
-  max-width: 3rem;
-  margin: 0rem 3rem;
+  max-width: 3.5rem;
+  margin: 0;
 }
 .toolContainer p {
   font-size: 0.9rem;
@@ -80,18 +73,23 @@ h3 {
 }
 .toolContainer span {
   font-size: 1rem;
-  margin: -21rem 0 0 0;
+  margin: -15rem 0 0 0;
 }
 .flag {
-  margin-top: -21rem;
+  margin-top: -14rem;
+}
+.flag img {
+  margin: 0.5rem;
 }
 
 /* Photo page */
 .photoContainer {
-  margin-top: 3rem;
+  margin-top: -5rem;
 }
-.photoContainer img {
-  width: 10rem;
+.photo img {
+  width: 12rem;
+  height: auto;
+  margin: 2rem;
 }
 
 /* Design page */
@@ -102,16 +100,30 @@ h3 {
 /* Webdev page */
 .dev{
   flex-wrap: wrap;
-  margin-top: 1rem;
+  margin-top: -1rem;
 }
-.devContainer img {
-  max-height: 22vh;
+.devContainer .dev .dev_items figure img {
+  max-height: 30vh;
   width: auto;
-  margin: 0.5rem;
+}
+.devContainer .dev .dev_items figcaption {
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Data Page */
+.tracking-in-expand figcaption {
+  font-size: 4rem;
 }
 
 /* Contact Page */
 .contactContainer .social img {
-  width: 2rem;
+  width: 3rem;
+}
+
+/* Footer */
+.footer .menu-footer a {
+  font-size: 1.5rem;
+  margin: 0.5rem;
 }
 

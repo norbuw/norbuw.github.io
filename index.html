@@ -18,7 +18,13 @@
     <meta property="og:locale" content="en_US" />
     <!-- Links -->
     <link rel="icon" type="image/x-icon" href="/img/logoBlue.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" media="screen and (min-device-width : 768px) and (max-device-width : 1023px)"
         href="tablet.css">
     <link rel="stylesheet" media="screen and (max-width:767px)" href="mobile.css">
@@ -28,39 +34,31 @@
 
 <body>
     <!-- Header -->
-    <header>
-        <!-- Side navbar -->
+    <header id="header">
+        <!-- Navbar -->
         <div class="container">
-            <div class="sidebar sidebarGo">
-                <nav>
-                    <ul>
-                        <li><a href="#home">HOME</a></li>
-                        <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#tools">TOOLS</a></li>
-                        <li><a href="#photo">PHOTO</a></li>
-                        <li><a href="#design">DESIGN</a></li>
-                        <li><a href="#webdev">WEBDEV</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="hamburger">
-                <img class="ham" src="./img/menu.png" alt="menu bar icon">
-                <img class="cross" src="./img/cross.png" alt="orange cross icon">
-            </div>
+            <nav class="navbar">
+                <a href="#home">Norbu Gyachung</a>
+            </nav>
+            <button class="navbar-burger" onclick="toggleMenu()"></button>
+            <nav class="menu">
+                <a href="#home" style="animation-delay: 0.1s">Home</a>
+                <a href="#about" style="animation-delay: 0.2s">About</a>
+                <a href="#tools" style="animation-delay: 0.3s">Tools</a>
+                <a href="#photo" style="animation-delay: 0.4s">Photo</a>
+                <a href="#design" style="animation-delay: 0.5s">Design</a>
+                <a href="#webdev" style="animation-delay: 0.6s">Web</a>
+                <a href="#data" style="animation-delay: 0.6s">data</a>
+                <a href="#contact" style="animation-delay: 0.7s">Contact</a>
+            </nav>
         </div>
     </header>
+
     <!-- Main home page-->
-    <section>
+    <section id="home">
         <div class="container">
             <div class="mainContainer">
-                <div class="info">
-                    <!-- <img class="logo" src="img/logoBlue.png" alt="letter n in orange color"> -->
-                    <h2 class="purple">Hello, I am Norbu</h2>
-                    <h2>photographer</h2>
-                    <h2>developer</h2>
-                    <h2>designer</h2>
-                </div>
+                <h1>data analyst<br> web developer<br> visual designer<br> photographer</h1>
             </div>
         </div>
     </section>
@@ -68,7 +66,7 @@
     <!-- About page -->
     <section id="about">
         <div class="container">
-            <h3>About</h3>
+            <h2>About</h2>
             <div class="aboutContainer">
                 <div class="about">
                     <div class="pic">
@@ -84,12 +82,13 @@
                             I
                             have never been afraid to take the plunge.<br><br>
                             As a photographer, I like to capture the moment by appreciating the beauty and value of what
-                            I see.
-                            <br><br>
-                            Recently, I have taken up creative digital design and web development.
-                            I love creating beautiful web experiences focused on simplicity and purpose on the internet
-                            and in life. I
-                            am always open to learning and improving my skills and myself, as there is no end to
+                            I see.<br><br>
+                            As a visual designer and web developer,
+                            I love creating beautiful visual and web experiences focused on simplicity and purpose on
+                            the digital platform and in life.<br> <br>
+                            Since data takes on a new importance and value in the digital age, currently I am in process
+                            of becoming a Data Analyst.<br><br>
+                            I am always open to learning and improving my skills and myself, as there is no end to
                             learning, through learning we grow.<br><br>
 
                             One of my favorite quotes is from Tenzin Gyatso, His Holiness the 14th Dalai Lama of Tibet:
@@ -108,9 +107,33 @@
     <!-- Tools page -->
     <section id="tools">
         <div class="container">
-            <h3>Tools</h3>
+            <h2>Tools</h2>
             <div class="toolContainer">
                 <div class="tool">
+                    <div>
+                        <img src="/img/icons/python.png" alt="python logo">
+                        <p>Python</p>
+                    </div>
+                    <div>
+                        <img src="/img/icons/r.png" alt="r logo">
+                        <p>R</p>
+                    </div>
+                    <div>
+                        <img src="/img/icons/knime.png" alt="knime logo">
+                        <p>Knime</p>
+                    </div>
+                    <div>
+                        <img src="/img/icons/tableau.png" alt="tableau logo">
+                        <p>Tableau</p>
+                    </div>
+                    <div>
+                        <img src="/img/icons/powerBI.png" alt="powerBI logo">
+                        <p>PowerBI</p>
+                    </div>
+                    <div>
+                        <img src="/img/icons/excel.png" alt="excel logo">
+                        <p>Excel</p>
+                    </div>
                     <div>
                         <img src="/img/icons/html.png" alt="html logo">
                         <p>HTML5</p>
@@ -130,6 +153,10 @@
                     <div>
                         <img src="/img/icons/mysql.png" alt="mysql logo">
                         <p>MySQL</p>
+                    </div>
+                    <div>
+                        <img src="/img/icons/react.png" alt="react logo">
+                        <p>ReactJS</p>
                     </div>
                     <div>
                         <img src="/img/icons/vscode.png" alt="vscode logo">
@@ -162,10 +189,10 @@
                 </div>
                 <span>I speak :</span>
                 <div class="flag">
-                    <img src="/img/icons/tibet.png" alt="tibetan flag">
                     <img src="/img/icons/france.png" alt="french flag">
                     <img src="/img/icons/united-kingdom.png" alt="uk flag">
                     <img src="/img/icons/india.png" alt="indian flag">
+                    <img src="/img/icons/tibet.png" alt="tibetan flag">
                 </div>
             </div>
         </div>
@@ -174,7 +201,7 @@
     <!-- Photo page -->
     <section id="photo">
         <div class="container">
-            <h3>Photo</h3>
+            <h2>Photo</h2>
             <div class="photoContainer">
                 <div class="photo">
                     <a href="https://www.shutterstock.com/g/NorbuGyachung" target="_blank"><img
@@ -193,37 +220,57 @@
     <!-- Design page -->
     <section id="design">
         <div class="container">
-            <h3>Designs</h3>
+            <h2>Designs</h2>
             <div class="designContainer">
                 <div class="design">
                     <div>
                         <figure>
-                            <img src="/img/poster/goodsoles.png" alt="social media campaign for the good soles">
-                            <figcaption>Social media campaign</figcaption>
+                            <img src="/img/poster/himalaya.png" alt="landing page for himalaya">
+                            <!-- <figcaption>Social media campaign</figcaption> -->
+                        </figure>
+                        <figure>
+                            <img src="/img/poster/okasa.png" alt="landing page for osaka">
+                            <figcaption>Landing Page</figcaption>
                         </figure>
                     </div>
                     <div>
                         <figure>
                             <img src="/img/poster/atelier21.png" alt="atelier 21 poster">
-                            <figcaption>Digital branding</figcaption>
+                            <!-- <figcaption>Digital branding</figcaption> -->
+                        </figure>
+                        <figure>
+                            <img src="/img/poster/idas.png" alt="idas poster">
+                            <figcaption>Campaign</figcaption>
                         </figure>
                     </div>
                     <div>
                         <figure>
-                            <img src="/img/poster/theredpebble.png" alt="logo design of the red pebble">
-                            <figcaption>Logo/Branding</figcaption>
+                            <img src="/img/poster/gogo.png" alt="logo design of gogo">
+                            <!-- <figcaption>Logo/Branding</figcaption> -->
+                        </figure>
+                        <figure>
+                            <img src="/img/poster/kanata.png" alt="logo design of kanata">
+                            <figcaption>Logo & Branding</figcaption>
                         </figure>
                     </div>
                     <div>
                         <figure>
                             <img src="/img/poster/tsampa.png" alt="brangding design of tsampa">
-                            <figcaption>Logo/Branding</figcaption>
+                            <!-- <figcaption>Branding</figcaption> -->
+                        </figure>
+                        <figure>
+                            <img src="/img/poster/tibetcorner.png" alt="brangding design of tibet corner">
+                            <figcaption>Brand Identity</figcaption>
                         </figure>
                     </div>
                     <div>
                         <figure>
                             <img src="/img/poster/A night in Seattle.jpg" alt="a night in seattle poster">
-                            <figcaption>Poster design</figcaption>
+                            <!-- <figcaption>Poster design</figcaption> -->
+                        </figure>
+                        <figure>
+                            <img src="/img/poster/The last war.jpg" alt="the last war poster">
+                            <figcaption>Print Design</figcaption>
                         </figure>
                     </div>
                 </div>
@@ -234,38 +281,55 @@
     <!-- Webdev page -->
     <section id="webdev">
         <div class="container">
-            <h3>Web Development</h3>
+            <h2>Web Development</h2>
             <div class="devContainer">
                 <div class="dev">
                     <div class="dev_items">
-                        <a href="https://www.figma.com/proto/VPM7552hgdmrXteCkhQONJ/Phayul?scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&node-id=1%3A2"
-                            target="_blank"><img src="./img/web/phayul.png" alt="home page for phayul"></a>
-                        <p>Prototype for Phayul Media</p>
+                        <figure>
+                            <a href="https://www.figma.com/proto/VPM7552hgdmrXteCkhQONJ/Phayul?scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&node-id=1%3A2"
+                                target="_blank"><img src="./img/web/phayul.png" alt="home page for phayul"></a>
+                            <figcaption>Prototype for Phayul Media</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="https://www.figma.com/proto/fsaUV77QMDzjaGLOrJDRhP/EnesFullPage?node-id=5%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A2"
+                                target="_blank"><img src="./img/web/enes.png" alt="home page for enes freedom"
+                                    class="hover"></a>
+                            <figcaption>Prototype for Enes Freedom</figcaption>
+                        </figure>
                     </div>
                     <div class="dev_items">
-                        <a href="https://www.figma.com/proto/fsaUV77QMDzjaGLOrJDRhP/EnesFullPage?node-id=5%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A2"
-                            target="_blank"><img src="./img/web/enes.png" alt="home page for enes freedom"
-                                class="hover"></a>
-                        <p>Prototype for Enes Freedom</p>
+                        <figure>
+                            <a href="https://62tcvaafrance.netlify.app/" target="_blank"><img src="./img/web/tcv.png"
+                                    alt="home page for enes freedom"></a>
+                            <figcaption>TCV Alumni France</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="https://www.urbantibet.com/" target="_blank"><img src="./img/web/urbantibet.png"
+                                    alt="home page for enes freedom"></a>
+                            <figcaption>Startup Urban Tibet</figcaption>
+                        </figure>
                     </div>
                     <div class="dev_items">
-                        <a href="https://norbugyachung.netlify.app/" target="_blank"><img src="./img/web/portfolio.png"
-                                alt="home page for enes freedom"></a>
-                        <p>Another Portfolio </p>
-                    </div>
-                    <div class="dev_items">
-                        <a href="https://www.urbantibet.com/" target="_blank"><img src="./img/web/urbantibet.png"
-                                alt="home page for enes freedom"></a>
-                        <p>Startup Urban Tibet</p>
-                    </div>
-                    <div class="dev_items">
-                        <a href="https://62tcvaafrance.netlify.app/" target="_blank"><img src="./img/web/tcv.png"
-                                alt="home page for enes freedom"></a>
-                        <p>TCV Alumni France</p>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- Data page -->
+    <section id="data">
+        <div class="container">
+            <h2>Data Analytic</h2>
+            <div class="dataContainer">
+                <div class="data">
+                    <div class="data_items tracking-in-expand ">
+                        <figure>
+                            <!-- <a href="https://www.figma.com/proto/VPM7552hgdmrXteCkhQONJ/Phayul?scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&node-id=1%3A2"
+                                target="_blank"><img src="./img/web/phayul.png" alt="home page for phayul"></a> -->
+                            <figcaption>COMING SOON</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
     </section>
 
     <!-- Contact page -->
@@ -295,10 +359,19 @@
     <!-- Footer -->
     <footer>
         <div class="footer">
+            <nav class="menu-footer">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#tools">Tools</a>
+                <a href="#photo">Photo</a>
+                <a href="#design">Design</a>
+                <a href="#webdev">Web</a>
+                <a href="#data">Data</a>
+                <a href="#contact">Contact</a>
+            </nav>
             <p>ALL CONTENT COPYRIGHT &copy; NORBU GYACHUNG</p>
         </div>
     </footer>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
 </body>
 
