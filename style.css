@@ -14,9 +14,10 @@ html {
   overflow-x: hidden;
 }
 body {
-  color: #fff;
-  background: #507dbc;
+  color: #efefef;
+  background: #00434d;
 }
+
 h2 {
   text-align: center;
   font-size: 3rem;
@@ -52,7 +53,7 @@ button {
 }
 .navbar a {
   font-family: 'Fjalla One', sans-serif;
-  color: #ffd166;
+  color: #00b085;
   font-size: 1.5rem;
   margin-left: 2rem;
   transition: 700ms ease;
@@ -90,7 +91,7 @@ body.open .navbar-burger {
   gap: 1.7rem;
   width: 100%;
   height: 8%;
-  background: rgba(0, 0, 0, 0.536);
+  background: #ffd16665;
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
@@ -101,7 +102,7 @@ body.open .menu {
   visibility: visible;
 }
 .menu > a {
-  color: #fff;
+  color: #efefef;
   font-size: 1.5rem;
   transition: 600ms ease;
   padding: 0.5rem;
@@ -110,7 +111,7 @@ body.open .menu {
 .menu > a:hover {
   /* background-color: #000; */
   border-radius: 100%;
-  color: #ffd166;
+  color: #00b085;
 }
 body.open .menu > a {
   animation: appear 0.3s both;
@@ -143,7 +144,6 @@ body.open .menu > a {
   box-shadow: rgba(0, 0, 0, 0.24) 0rem 0.10rem 0.5rem;
 }
 #topBtn:hover {
-  color: #000;
   background-color: #feb50a;
 }
 /* Common for most pages*/
@@ -195,13 +195,13 @@ body.open .menu > a {
   font-size: 6rem;
   font-weight: 500 ;
   max-width: 40rem;
-  color: #fff;
+  color: #c7e1d9;
 }
 
 /* About Page */
 #about {
-  background: #a1c6ea;
-  color: #000;
+  background: #c7e1d9;
+  color: #1d1d1d;
 }
 .about {
   margin-top: -5rem;
@@ -219,7 +219,7 @@ blockquote {
 }
 .pic img {
   height: 15rem;
-  border: #eeede4 0.2rem solid;
+  border: #1d1d1d 0.2rem solid;
   border-radius: 21rem;
   padding: 0.3rem;
 }
@@ -250,8 +250,8 @@ blockquote {
 
 /* Photo page */
 #photo {
-  background: #a1c6ea;
-  color: #000;
+  background: #00b085;
+  color: #efefef;
 }
 .photo {
   align-items: baseline;
@@ -289,8 +289,8 @@ blockquote {
 
 /* Webdev page */
 #webdev {
-  background: #a1c6ea;
-  color: #000;
+  background: #00b085;
+  color: #efefef;
 }
 .dev {
   display: flex;
@@ -365,7 +365,7 @@ blockquote {
 }
 /* Contact Page */
 #contact {
-  background: #fff;
+  background: #efefef;
 }
 .contactContainer {
   height: 53vh;
@@ -378,7 +378,7 @@ blockquote {
   flex-wrap: wrap;
 }
 #contact h4 {
-  color: #507dbc;
+  color: #00434d;
 }
 .contactContainer {
   display: flex;
@@ -394,9 +394,6 @@ blockquote {
   padding: 3px;
   opacity: 1;
   float:left;
-	-webkit-transition: margin 0.5s ease-out;
-    -moz-transition: margin 0.5s ease-out;
-    -o-transition: margin 0.5s ease-out;
 }
 .contactContainer img:hover {
   opacity: .5;
@@ -405,19 +402,18 @@ blockquote {
   font-size: 0.6rem;
 }
 .contactContainer .resume a {
-  background-color: #507dbc;
+  background-color: #00b085;
   font-size: 1rem;
-  color: #fff;
+  color: #efefef;
   padding: 0.5rem;
   border-radius: 5rem;
 }
 .contactContainer .resume a:hover {
-  background-color: #1b62c4;
-  color: #fff;
+  background-color: #05795c;
 }
 /* Footer */
 .footer {
-  color: #fff;
+  color: #efefef;
   font-size: 0.7rem;
   bottom: 0;
   padding: 2rem 2rem 0rem 2rem;
@@ -433,12 +429,12 @@ blockquote {
 }
 .footer .menu-footer a {
   font-size: 2rem;
-  color: #fff;
+  color: #efefef;
   margin: 1rem;
   text-transform: lowercase;
 }
 .footer .menu-footer a:hover {
-  color: #ffd166;
+  color: #00b085;
 }
 
 
