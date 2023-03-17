@@ -91,7 +91,7 @@ body.open .navbar-burger {
   gap: 1.7rem;
   width: 100%;
   height: 8%;
-  background: #ffd16665;
+  background: #00434dbb;
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
